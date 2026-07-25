@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+# Generated manifest outputs are regenerable (see README) — not committed.
+# The synthetic input bundle (examples/sample_bundle.zip) is intentional.
+MANIFEST.json
+MANIFEST.txt
