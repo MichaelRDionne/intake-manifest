@@ -4,13 +4,13 @@ Prove that every file in an archive was accounted for — or fail loudly.
 
 ## The problem
 
-A bundle of documents arrives as a zip archive, and something downstream has to
-process all of it. The tempting approach is an instruction: "open the archive
-and read every file." That instruction is forgettable and, worse, unverifiable
-— nothing about it proves the tenth file in a ten-file bundle was ever opened.
-A process that handles nine of ten files produces output that looks exactly like
-one that handled all ten. When a missed document matters, that gap is the whole
-problem, and it is invisible.
+A zip archive of documents arrives, and something downstream has to process
+all of it. The tempting approach is an instruction: "open the archive and read
+every file." That instruction is forgettable and, worse, unverifiable. Nothing
+about it proves the tenth file in a ten-file bundle was ever opened. A process
+that handles nine of ten files produces output that looks exactly like one that
+handled all ten. When a missed document matters — a medical record, a legal
+filing, an invoice — that invisible gap is the whole problem.
 
 ## The guarantee
 
